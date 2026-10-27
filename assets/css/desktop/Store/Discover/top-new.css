@@ -1,0 +1,69 @@
+section.top-new-realeses {
+  width: 100%;
+  max-width: 78%;
+  height: fit-content;
+  padding: 10px;
+  margin: 90px auto !important;
+}
+section.top-new-realeses .top-new-layout {
+  width: 100%;
+}
+section.top-new-realeses .top-new-layout .top-nav {
+  width: 100%;
+  height: 50px;
+}
+section.top-new-realeses .top-new-layout .top-nav a {
+  color: white;
+  font-size: 23px;
+  font-family: Epic;
+}
+
+section.top-new-realeses .top-new-layout .bottom-cards {
+  width: 100%;
+  max-width: 99%;
+  /* background-color: gray; */
+}
+section.top-new-realeses .top-new-layout .bottom-cards .swiper {
+  width: 100%;
+  height: 100%;
+}
+section.top-new-realeses .top-new-layout .bottom-cards .swiper-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+}
+section.top-new-realeses .top-new-layout .bottom-cards .swiper-slide {
+    width: 11.7vw !important;
+  text-align: center;
+  font-size: 18px;
+  /* background: #444; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.top-new-realeses .top-new-layout .bottom-cards .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 14px;
+}
+section.top-new-realeses .top-new-layout .bottom-cards .swiper-slide a p.description {
+    color: gray;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 10px !important;
+
+}
+section.top-new-realeses .top-new-layout .bottom-cards .swiper-slide a p.title {
+    color: white;
+    text-align: left;
+    font-size: 18px;
+}
+section.top-new-realeses .top-new-layout .bottom-cards .swiper-slide a p.price {
+    color: white;
+    text-align: left;
+    font-size: 15px;
+    margin: 10px 0px !important;
+}

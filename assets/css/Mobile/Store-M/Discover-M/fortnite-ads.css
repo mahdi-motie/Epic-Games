@@ -1,0 +1,40 @@
+section.ads-1-1 {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-flow: column wrap;
+  background-color: #101014 !important;
+}
+section.ads-1-1 a.whats-new-fortnite {
+  width: 90%;
+  height: 280px;
+  background-color: white;
+  margin: 60px auto !important;
+  padding: 25px;
+  border-radius: 20px;
+  background-image: url(../../../../img/fnbr-41-00-c7s3-egs-twifbanner-mobile-720x400-9df5c40d3bf5.avif);
+  background-position: top;
+  background-size: cover;
+  position: relative;
+}
+section.ads-1-1 .advertise-fortnite {
+  background-color: #101014;
+}
+section.ads-1-1 a.whats-new-fortnite img {
+  width: 90px;
+  position: absolute;
+  top: 10%;
+}
+section.ads-1-1 a.whats-new-fortnite p.main-adv-txt {
+  position: absolute;
+  bottom: 40%;
+  color: white;
+  font-size: 19px;
+  font-weight: 700;
+}
+section.ads-1-1 a.whats-new-fortnite p.snd-ad-txt {
+  width: 80%;
+  position: absolute;
+  bottom: 17%;
+  color: lightgray;
+}

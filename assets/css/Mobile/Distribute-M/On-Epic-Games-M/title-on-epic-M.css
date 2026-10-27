@@ -1,0 +1,70 @@
+.on-epic-mobile .title-on-epic-container-M{
+    width: 100%;
+    height: fit-content;
+}
+
+.title-on-epic-container-M .title-on-epic-body-M{
+    width: 95%;
+    height: fit-content;
+    margin: 0 auto !important;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center ;
+    justify-content: center;
+    gap: 50px;
+}
+
+.on-epic-mobile .title-on-epic-container-M .title-on-epic-body-M .img-title-on-epic-M{
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto !important;
+}
+
+.on-epic-mobile .title-on-epic-container-M .title-on-epic-body-M .img-title-on-epic-M img{
+    object-fit: contain;
+    width: 100%;
+} 
+
+.on-epic-mobile .title-on-epic-container-M .title-on-epic-body-M .text-title-on-epic-M{
+    width: 100%;
+    height: 146px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+}
+
+.on-epic-mobile .title-on-epic-container-M .title-on-epic-body-M .text-title-on-epic-M h2{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.on-epic-mobile .title-on-epic-container-M .title-on-epic-body-M .text-title-on-epic-M .sign-in-on-epic-M{
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 15px;
+    border-radius: 8px;
+    white-space: nowrap;
+    border: unset;
+    background-color: rgb(0, 204, 255);
+    font-size: 14px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: Epic;
+    font-weight: bold;
+    font-weight: 600;
+}
+
+.on-epic-mobile .title-on-epic-container-M .title-on-epic-body-M .text-title-on-epic-M .sign-in-on-epic-M::after{
+    content: "SIGN UP TODAY";
+
+}
+
+.on-epic-mobile .title-on-epic-container-M .title-on-epic-body-M .text-title-on-epic-M p{
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+}

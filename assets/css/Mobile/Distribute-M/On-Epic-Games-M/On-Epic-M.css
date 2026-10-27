@@ -1,0 +1,8 @@
+@import url(./nav-on-epic-M.css);
+@import url(./title-on-epic-M.css);
+@import url(./content-on-epic-m.css);
+@import url(./accardion-on-epic-m.css);
+@import url(../../Store-M/Discover-M/discover-nav.css);
+@import url(./nav-on.css);
+
+.on-epic-Desktop{display: none;}

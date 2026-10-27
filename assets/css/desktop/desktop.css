@@ -1,0 +1,10 @@
+@import url(./Store/home/home-nav.css);
+@import url(./Store/Discover/main-discover.css);
+@import url(./Sign-in/sign-in.css);
+
+@import url(./Distribute/On-Epic_Games/on-epic-D.css);
+@import url(./Store/News/News-D.css);
+
+.mbl-discover{
+    display: none;
+}

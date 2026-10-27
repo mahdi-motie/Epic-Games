@@ -1,0 +1,52 @@
+.last-game-news-D {
+  width: 80%;
+  height: fit-content;
+  margin: 50px auto !important;
+}
+
+.last-game-news-D .game-news-D {
+  border-top: 0.8px solid #ffffffa6;
+  padding: 10px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: start;
+  margin-top:  10px !important;
+}
+
+.last-game-news-D .game-news-D .img-game-news-d img {
+  width: 200px;
+  height: 133px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-top: 10px !important;
+}
+
+.last-game-news-D .game-news-D .text-game-news-d {
+  width: 427px;
+  height: fit-content;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 10px;
+  padding-left: 15px;
+}
+
+.last-game-news-D .game-news-D .text-game-news-d .game-news-day-d span {
+  color: #ffffffa6;
+  font-size: 14px;
+}
+
+.last-game-news-D .game-news-D .text-game-news-d .game-news-title-d span {
+  color: #fff;
+  font-size: 19px;
+}
+
+.last-game-news-D .game-news-D .text-game-news-d .game-news-info-d span {
+  color: #ffffffa6;
+  font-size: 16px;
+}
+
+.last-game-news-D .game-news-D .text-game-news-d a {
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+}

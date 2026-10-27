@@ -1,0 +1,1344 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <title>Epic Games</title>
+  </head>
+  <body>
+    <section class="Home-Desktop md">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <svg
+              class="logo-svg"
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              fill="none"
+              viewBox="0 0 32 32"
+            >
+              <path
+                fill="#fff"
+                d="M26.439 1.25c1.712 0 2.336.623 2.336 2.31v20.56c0 .265-.047.74-.133.944-.087.205-.167.371-.327.52-.164.153-.45.312-.587.375l-11.067 4.657a1.686 1.686 0 0 1-1.322 0L4.273 25.961a2.624 2.624 0 0 1-.586-.376c-.16-.149-.24-.315-.327-.519-.086-.203-.133-.68-.133-.944V3.56c0-1.687.624-2.31 2.336-2.31h20.875ZM11.845 26.07a.097.097 0 0 0-.029.019.096.096 0 0 0-.02.028.103.103 0 0 0-.007.035.09.09 0 0 0 .007.037.098.098 0 0 0 .049.046l4.007 1.7a.358.358 0 0 0 .28 0l4.038-1.7a.08.08 0 0 0 .028-.018.093.093 0 0 0 .02-.028.106.106 0 0 0 .007-.037.087.087 0 0 0-.027-.063.083.083 0 0 0-.063-.026H11.88a.089.089 0 0 0-.035.006ZM8.7 18.901c-.267 0-.516.046-.745.137-.23.092-.427.218-.593.38a1.79 1.79 0 0 0-.388.565c-.095.215-.141.45-.141.7v.011c0 .258.047.496.143.712.095.217.228.404.396.56.17.158.368.28.598.368.23.088.48.132.75.132.318 0 .602-.051.853-.152a2.54 2.54 0 0 0 .654-.378v-1.543H8.632v.698h.683v.416a.998.998 0 0 1-.554.141.992.992 0 0 1-.38-.07.874.874 0 0 1-.492-.498 1.03 1.03 0 0 1-.07-.382v-.01a.973.973 0 0 1 .257-.666.837.837 0 0 1 .629-.274c.172 0 .324.027.454.083.13.055.259.135.384.24l.565-.67a2.195 2.195 0 0 0-.612-.368 2.178 2.178 0 0 0-.796-.132Zm14.96.007a1.83 1.83 0 0 0-.561.081 1.281 1.281 0 0 0-.423.229.978.978 0 0 0-.268.347 1.054 1.054 0 0 0-.092.44v.012c0 .175.034.324.102.443.068.119.16.219.278.299.118.08.256.145.414.196.158.05.33.096.515.139.12.026.215.051.29.076.073.024.133.05.178.076a.254.254 0 0 1 .092.08c.016.027.025.06.025.096v.01a.193.193 0 0 1-.103.173.574.574 0 0 1-.293.062c-.404 0-.779-.138-1.125-.412l-.536.633c.215.189.463.33.742.425.278.095.573.142.883.142.212 0 .404-.024.576-.075.172-.051.319-.125.44-.22.123-.097.218-.214.286-.351.068-.137.102-.295.102-.471v-.01a.89.89 0 0 0-.09-.414.826.826 0 0 0-.257-.297 1.658 1.658 0 0 0-.41-.208 4.235 4.235 0 0 0-.537-.15 3.63 3.63 0 0 1-.294-.075 1.016 1.016 0 0 1-.184-.074.25.25 0 0 1-.095-.08.19.19 0 0 1-.027-.102v-.011c0-.062.03-.114.087-.156a.441.441 0 0 1 .26-.065c.155 0 .316.03.483.087.167.058.33.14.488.252l.48-.67a2.007 2.007 0 0 0-.63-.342 2.524 2.524 0 0 0-.797-.115Zm-13.127 3.486h1.012l.248-.614h1.338l.253.614h1.031l-1.477-3.455h-.927l-1.478 3.454Zm4.219 0h.941v-1.96l.883 1.332h.02l.887-1.342v1.97h.956v-3.43h-1.015l-.83 1.328-.826-1.327h-1.016v3.428Zm4.33 0h2.814v-.808h-1.863v-.544h1.665v-.75h-1.665v-.519h1.84v-.808h-2.791v3.428Zm-6.23-1.353h-.778l.39-.975.388.975Zm9.275-16.19c-1.42 0-2.123.695-2.123 2.101v7.305c0 1.406.703 2.1 2.124 2.1h.865c1.42 0 2.123-.695 2.123-2.1v-2.635h-1.715v2.554c0 .452-.212.662-.653.662h-.326c-.457 0-.67-.21-.67-.662V7.034c0-.453.212-.663.67-.663h.294c.44 0 .652.21.652.663v2.213h1.715v-2.31c0-1.406-.686-2.085-2.106-2.085h-.85Zm-15.21 11.41h3.919v-1.568H8.664v-3.409h2.058V9.717H8.664v-3.2h2.139V4.95H6.917v11.312Zm4.763 0h1.747v-4.105h.996c1.42 0 2.123-.694 2.123-2.1V7.05c0-1.407-.702-2.1-2.123-2.1H11.68v11.31ZM17.334 4.95v11.312h1.747V4.95h-1.747Zm-3.19 1.519c.441 0 .654.21.654.662v2.845c0 .452-.212.663-.653.663h-.718v-4.17h.718Z"
+              ></path>
+            </svg>
+            <svg
+              class="logo-arrow-sub"
+              width="16px"
+              height="16px"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke="#CCCCCC"
+                stroke-width="0.096"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  d="M5.70711 9.71069C5.31658 10.1012 5.31658 10.7344 5.70711 11.1249L10.5993 16.0123C11.3805 16.7927 12.6463 16.7924 13.4271 16.0117L18.3174 11.1213C18.708 10.7308 18.708 10.0976 18.3174 9.70708C17.9269 9.31655 17.2937 9.31655 16.9032 9.70708L12.7176 13.8927C12.3271 14.2833 11.6939 14.2832 11.3034 13.8927L7.12132 9.71069C6.7308 9.32016 6.09763 9.32016 5.70711 9.71069Z"
+                  fill="#fff"
+                ></path>
+              </g>
+            </svg>
+          </a>
+          <div
+            class="collapse navbar-collapse align-items-center p-1 gap-2"
+            id="navbarTogglerDemo03"
+          >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                  <img src="./assets/img/Logo Epic Games Store.svg" alt="" />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Support</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light">Distribute</a>
+              </li>
+            </ul>
+
+            <a href="./sign-in.html">
+              <button class="btn text-light" type="submit">Sign in</button>
+            </a>
+            <button class="btn bg-primary" type="submit">Download</button>
+          </div>
+        </div>
+      </nav>
+      <section class="top-second-navbar position-sticky top-0">
+        <div class="second-nav">
+          <form action="#">
+            <input type="search" placeholder="Search store" />
+            <ul>
+              <li><a href="./Home.html">Discover</a></li>
+              <li><a href="./On-Epic.html">On-Epic</a></li>
+              <li><a href="./News.html">News</a></li>
+            </ul>
+          </form>
+        </div>
+      </section>
+
+      <!-- sticky nav -->
+
+      <!-- main slidder -->
+
+      <!-- second slider -->
+
+      <section class="discover-smth-new">
+        <div class="discover-new-layout">
+          <div class="discover-neew-leftSide">
+            <a href="#"><img src="./assets/img/discover-smth.avif" alt="" /></a>
+          </div>
+          <div class="swiper deskdiscoverSwiper">
+            <div class="swiper-wrapper">
+              <!-- <div class="swiper-slide">
+                <div class="card-main" style="width: 20vw">
+                  <div class="card-body">
+                    <div class="card-1">
+                      <div class="img">
+                        <img
+                          src="./assets/img/dead-as-disco-atazj.webp"
+                          alt=""
+                        />
+                      </div>
+                      <div class="title">
+                        <p>ZERO PARADES: For Dea...</p>
+                        <div class="price">40$</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-main" style="width: 20vw">
+                  <div class="card-body">
+                    <div class="card-1">
+                      <div class="img">
+                        <img
+                          src="./assets/img/dead-as-disco-atazj.webp"
+                          alt=""
+                        />
+                      </div>
+                      <div class="title">
+                        <p>ZERO PARADES: For Dea...</p>
+                        <div class="price">40$</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-main" style="width: 20vw">
+                  <div class="card-body">
+                    <div class="card-1">
+                      <div class="img">
+                        <img
+                          src="./assets/img/dead-as-disco-atazj.webp"
+                          alt=""
+                        />
+                      </div>
+                      <div class="title">
+                        <p>ZERO PARADES: For Dea...</p>
+                        <div class="price">40$</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+              
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="fortnite-banner-ad">
+        <div class="runners-event">
+          <!-- <div class="runner-back">
+            <img src="./assets/img/runner-event-dsk.avif" alt="Fortnite" />
+            <div class="runner-front">
+              <img
+                src="./assets/img/en-fnbr-41-00-c7s3-egs-featcarousel-logo-500x289-20c06a619951.avif"
+                alt=""
+              />
+              <p class="title">This week in Fortnite</p>
+              <p class="describtion">
+                See whats's new in Fortnite all in one place
+              </p>
+              <button class="btn">Discover Now</button>
+            </div>
+          </div> -->
+        </div>
+      </section>
+
+      <section class="Summer-Sale">
+        <div class="discover-new-layout">
+          <div class="discover-neew-leftSide">
+            <a href="#"><img src="./assets/img/discover-smth.avif" alt="" /></a>
+          </div>
+          <div class="swiper deskdiscoverSwiper">
+            <div class="swiper-wrapper">
+              <!-- <div class="swiper-slide">
+                <div class="card-main" style="width: 20vw">
+                  <div class="card-body">
+                    <div class="card-1">
+                      <div class="img">
+                        <img
+                          src="./assets/img/dead-as-disco-atazj.webp"
+                          alt=""
+                        />
+                      </div>
+                      <div class="title">
+                        <p>ZERO PARADES: For Dea...</p>
+                        <div class="price">40$</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-main" style="width: 20vw">
+                  <div class="card-body">
+                    <div class="card-1">
+                      <div class="img">
+                        <img
+                          src="./assets/img/dead-as-disco-atazj.webp"
+                          alt=""
+                        />
+                      </div>
+                      <div class="title">
+                        <p>ZERO PARADES: For Dea...</p>
+                        <div class="price">40$</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-main" style="width: 20vw">
+                  <div class="card-body">
+                    <div class="card-1">
+                      <div class="img">
+                        <img
+                          src="./assets/img/dead-as-disco-atazj.webp"
+                          alt=""
+                        />
+                      </div>
+                      <div class="title">
+                        <p>ZERO PARADES: For Dea...</p>
+                        <div class="price">40$</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+              
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="deals-of-the-week-dsk">
+        <div class="deals-dsk">
+          <div class="parent">
+            <!-- <div class="div1">
+              <div class="dow-card">
+                <img
+                  src="./assets/img/we-were-here.avif"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    EA SPORTS FC™ 26 The World's Game Edition
+                  </p>
+                  <p class="dow-price">€17.99</p>
+                </div>
+              </div>
+            </div>
+             -->
+          </div>
+        </div>
+      </section>
+
+      <section class="free-games-dsk">
+        <div class="free-games-top-nav">
+          <div class="free-games-title">
+            <svg
+              width="40px"
+              height="40px"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  d="M3 9.5C3 9.03534 3 8.80302 3.03843 8.60982C3.19624 7.81644 3.81644 7.19624 4.60982 7.03843C4.80302 7 5.03534 7 5.5 7H12H18.5C18.9647 7 19.197 7 19.3902 7.03843C20.1836 7.19624 20.8038 7.81644 20.9616 8.60982C21 8.80302 21 9.03534 21 9.5V9.5V9.5C21 9.96466 21 10.197 20.9616 10.3902C20.8038 11.1836 20.1836 11.8038 19.3902 11.9616C19.197 12 18.9647 12 18.5 12H12H5.5C5.03534 12 4.80302 12 4.60982 11.9616C3.81644 11.8038 3.19624 11.1836 3.03843 10.3902C3 10.197 3 9.96466 3 9.5V9.5V9.5Z"
+                  stroke="#fff"
+                  stroke-width="1"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M4 12V16C4 17.8856 4 18.8284 4.58579 19.4142C5.17157 20 6.11438 20 8 20H9H15H16C17.8856 20 18.8284 20 19.4142 19.4142C20 18.8284 20 17.8856 20 16V12"
+                  stroke="#fff"
+                  stroke-width="1"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M12 7V20"
+                  stroke="#fff"
+                  stroke-width="1"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M11.3753 6.21913L9.3959 3.74487C8.65125 2.81406 7.26102 2.73898 6.41813 3.58187C5.1582 4.8418 6.04662 7 7.82843 7L11 7C11.403 7 11.6271 6.53383 11.3753 6.21913Z"
+                  stroke="#fff"
+                  stroke-width="1"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M12.6247 6.21913L14.6041 3.74487C15.3488 2.81406 16.739 2.73898 17.5819 3.58187C18.8418 4.8418 17.9534 7 16.1716 7L13 7C12.597 7 12.3729 6.53383 12.6247 6.21913Z"
+                  stroke="#fff"
+                  stroke-width="1"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </g>
+            </svg>
+            <p>Free Games</p>
+          </div>
+          <div class="view-more-btn">
+            <a href="#"> View More </a>
+          </div>
+        </div>
+        <!-- <div class="cards">
+          <div class="card-1">
+            <img
+              src="./assets/img/echo-generation-midnight-edition-49ac1.jpg"
+              alt=""
+            />
+            <p class="title">Citizen Sleeper</p>
+            <p class="description">Free now - Jun 25 at 05:00 PM</p>
+          </div>
+        </div> -->
+        
+        </div>
+      </section>
+
+      <section class="top-new-realeses">
+        <div class="top-new-layout">
+          <div class="top-nav">
+            <a href="#">Top New Releases > </a>
+          </div>
+          <div class="bottom-cards">
+            <div class="swiper topNewSwiper">
+              <div class="swiper-wrapper">
+                <!-- <div class="swiper-slide">
+                  <a href="#">
+                    <img
+                      class="card-img"
+                      src="./assets/img/assassins.avif"
+                      alt=""
+                    />
+                    <p class="description">Base Game</p>
+                    <p class="title">Assassin's Creed Black Flag Resynced</p>
+                    <p class="price">59.99$</p>
+                  </a>
+                </div> -->
+                
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="dsk-footer">
+        <div class="footer-layout">
+          <div class="store-links">
+            <img
+              src="./assets/img/Logo Epic Games Store.svg"
+              alt="Store"
+              class="store-lk"
+            />
+            <div class="footer-social-links">
+              <a href="#" class="facebook">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M14.91 1c1.369 0 2.802.244 2.802.244v3.082h-1.58c-1.554 0-2.04.965-2.04 1.955v2.35h3.473l-.555 3.619h-2.918V21H10.18v-8.75H7V8.63h3.18V5.873C10.18 2.734 12.049 1 14.91 1"
+                  ></path>
+                </svg>
+              </a>
+              <a href="#" class="X">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="m8.36 3 4.647 6.618L18.825 3h1.588l-6.701 7.622L21 21h-5.36l-4.908-6.988L4.588 21H3l7.027-7.992L3 3zm-3.2 1.17 5.665 7.929.712.997 4.85 6.788h2.44l-5.944-8.319-.712-.996L7.6 4.17z"
+                  ></path>
+                </svg>
+              </a>
+              <a href="#" class="Youtube">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M12.004 5s4.2 0 6.996.203c.39.047 1.242.05 2.004.848.601.605.797 1.984.797 1.984 0 .001.199 1.622.199 3.238v1.516c0 1.621-.2 3.238-.2 3.238 0 .001-.195 1.38-.796 1.985-.762.797-1.613.8-2.004.847-2.797.2-6.999.207-7 .207 0 0-5.2-.046-6.8-.199-.446-.086-1.446-.058-2.208-.855-.597-.605-.793-1.983-.793-1.985 0 0-.199-1.62-.199-3.238v-1.516c0-1.616.203-3.237.203-3.238s.192-1.379.793-1.984C3.758 5.254 4.61 5.25 5 5.203 7.797 5 11.996 5 11.996 5zm-2.07 9.629 5.402-2.8-5.402-2.821z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="lists">
+            <ul class="games">
+              <h2 class="title">Games</h2>
+              <li><a href="#">Fortnite</a></li>
+              <li><a href="#">Fall Guys</a></li>
+              <li><a href="#">Rocket League</a></li>
+              <li><a href="#">Unreal Tournoment</a></li>
+              <li><a href="#">Infinity Blade</a></li>
+              <li><a href="#">Shadow Complex</a></li>
+              <li><a href="#">Robo Recall</a></li>
+            </ul>
+            <ul class="market">
+              <h2 class="title">Marketplace</h2>
+              <li><a href="#">Fab</a></li>
+              <li><a href="#">Epic Games Store</a></li>
+              <li><a href="#">Quixel Megascans on Fab</a></li>
+              <li><a href="#">Quixel Megascans on Fab</a></li>
+              <li><a href="#">Sketchfab</a></li>
+              <li><a href="#">ArtStation</a></li>
+              <li><a href="#">Store Refund Policy</a></li>
+              <li><a href="#">Store EULA</a></li>
+            </ul>
+            <ul class="tools">
+              <h2 class="title">Tools</h2>
+              <li><a href="#">Unreal Engine</a></li>
+              <li><a href="#">UEFN</a></li>
+              <li><a href="#">MetalHuman</a></li>
+              <li><a href="#">Twinmotion</a></li>
+              <li><a href="#">RealityScan</a></li>
+              <li><a href="#">RAD Game Tools</a></li>
+            </ul>
+            <ul class="service">
+              <h2 class="title">Online Services</h2>
+              <li><a href="#">Epic Online Services</a></li>
+              <li><a href="#">Kids Web Services</a></li>
+              <li><a href="#">Services Agreement</a></li>
+              <li><a href="#">Acceptable Use Policy</a></li>
+              <li><a href="#">Trust Statement</a></li>
+              <li><a href="#">Subprocessor list</a></li>
+            </ul>
+            <ul class="company">
+              <h2 class="title">Company</h2>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Newsroom</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Students</a></li>
+              <li><a href="#">UX Reasearch</a></li>
+            </ul>
+            <ul class="resource">
+              <h2 class="title">Resources</h2>
+              <li><a href="#">Dev Community</a></li>
+              <li><a href="#">MegaGrants</a></li>
+              <li><a href="#">Support-A-Creator</a></li>
+              <li><a href="#">Disturbute on Epic Games</a></li>
+              <li><a href="#">Unreal Engine Branding Guidelines</a></li>
+              <li><a href="#">Fan Art Policy</a></li>
+              <li><a href="#">Community Rules</a></li>
+              <li><a href="#">EU Digital Services Act inquiries</a></li>
+              <li><a href="#">Epic Pro Support</a></li>
+            </ul>
+          </div>
+          <div class="privacy-policy">
+            <div class="privacy">
+              <p>
+                © 2026 Epic Games, Inc. All rights reserved. Epic, Epic Games,
+                the Epic Games logo, Fortnite, the Fortnite logo, Unreal, Unreal
+                Engine, the Unreal Engine logo, Unreal Tournament, and the
+                Unreal Tournament logo are trademarks or registered trademarks
+                of Epic Games, Inc. in the United States of America and
+                elsewhere. Other brands or product names are the trademarks of
+                their respective owners. Our websites may contain links to other
+                sites and resources provided by third parties. These links are
+                provided for your convenience only. Epic Games has no control
+                over the contents of those sites or resources, and accepts no
+                responsibility for them or for any loss or damage that may arise
+                from your use of them.
+              </p>
+            </div>
+            <div class="toptop">
+              <button class="#totop">Back to top</button>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+
+    <section class="mbl-discover">
+      <section class="discover-mobile">
+        <nav>
+          <div class="discover-nav">
+            <div class="discover-nav-logo">
+              <svg
+                class="logo-svg"
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                fill="none"
+                viewBox="0 0 32 32"
+              >
+                <path
+                  fill="#fff"
+                  d="M26.439 1.25c1.712 0 2.336.623 2.336 2.31v20.56c0 .265-.047.74-.133.944-.087.205-.167.371-.327.52-.164.153-.45.312-.587.375l-11.067 4.657a1.686 1.686 0 0 1-1.322 0L4.273 25.961a2.624 2.624 0 0 1-.586-.376c-.16-.149-.24-.315-.327-.519-.086-.203-.133-.68-.133-.944V3.56c0-1.687.624-2.31 2.336-2.31h20.875ZM11.845 26.07a.097.097 0 0 0-.029.019.096.096 0 0 0-.02.028.103.103 0 0 0-.007.035.09.09 0 0 0 .007.037.098.098 0 0 0 .049.046l4.007 1.7a.358.358 0 0 0 .28 0l4.038-1.7a.08.08 0 0 0 .028-.018.093.093 0 0 0 .02-.028.106.106 0 0 0 .007-.037.087.087 0 0 0-.027-.063.083.083 0 0 0-.063-.026H11.88a.089.089 0 0 0-.035.006ZM8.7 18.901c-.267 0-.516.046-.745.137-.23.092-.427.218-.593.38a1.79 1.79 0 0 0-.388.565c-.095.215-.141.45-.141.7v.011c0 .258.047.496.143.712.095.217.228.404.396.56.17.158.368.28.598.368.23.088.48.132.75.132.318 0 .602-.051.853-.152a2.54 2.54 0 0 0 .654-.378v-1.543H8.632v.698h.683v.416a.998.998 0 0 1-.554.141.992.992 0 0 1-.38-.07.874.874 0 0 1-.492-.498 1.03 1.03 0 0 1-.07-.382v-.01a.973.973 0 0 1 .257-.666.837.837 0 0 1 .629-.274c.172 0 .324.027.454.083.13.055.259.135.384.24l.565-.67a2.195 2.195 0 0 0-.612-.368 2.178 2.178 0 0 0-.796-.132Zm14.96.007a1.83 1.83 0 0 0-.561.081 1.281 1.281 0 0 0-.423.229.978.978 0 0 0-.268.347 1.054 1.054 0 0 0-.092.44v.012c0 .175.034.324.102.443.068.119.16.219.278.299.118.08.256.145.414.196.158.05.33.096.515.139.12.026.215.051.29.076.073.024.133.05.178.076a.254.254 0 0 1 .092.08c.016.027.025.06.025.096v.01a.193.193 0 0 1-.103.173.574.574 0 0 1-.293.062c-.404 0-.779-.138-1.125-.412l-.536.633c.215.189.463.33.742.425.278.095.573.142.883.142.212 0 .404-.024.576-.075.172-.051.319-.125.44-.22.123-.097.218-.214.286-.351.068-.137.102-.295.102-.471v-.01a.89.89 0 0 0-.09-.414.826.826 0 0 0-.257-.297 1.658 1.658 0 0 0-.41-.208 4.235 4.235 0 0 0-.537-.15 3.63 3.63 0 0 1-.294-.075 1.016 1.016 0 0 1-.184-.074.25.25 0 0 1-.095-.08.19.19 0 0 1-.027-.102v-.011c0-.062.03-.114.087-.156a.441.441 0 0 1 .26-.065c.155 0 .316.03.483.087.167.058.33.14.488.252l.48-.67a2.007 2.007 0 0 0-.63-.342 2.524 2.524 0 0 0-.797-.115Zm-13.127 3.486h1.012l.248-.614h1.338l.253.614h1.031l-1.477-3.455h-.927l-1.478 3.454Zm4.219 0h.941v-1.96l.883 1.332h.02l.887-1.342v1.97h.956v-3.43h-1.015l-.83 1.328-.826-1.327h-1.016v3.428Zm4.33 0h2.814v-.808h-1.863v-.544h1.665v-.75h-1.665v-.519h1.84v-.808h-2.791v3.428Zm-6.23-1.353h-.778l.39-.975.388.975Zm9.275-16.19c-1.42 0-2.123.695-2.123 2.101v7.305c0 1.406.703 2.1 2.124 2.1h.865c1.42 0 2.123-.695 2.123-2.1v-2.635h-1.715v2.554c0 .452-.212.662-.653.662h-.326c-.457 0-.67-.21-.67-.662V7.034c0-.453.212-.663.67-.663h.294c.44 0 .652.21.652.663v2.213h1.715v-2.31c0-1.406-.686-2.085-2.106-2.085h-.85Zm-15.21 11.41h3.919v-1.568H8.664v-3.409h2.058V9.717H8.664v-3.2h2.139V4.95H6.917v11.312Zm4.763 0h1.747v-4.105h.996c1.42 0 2.123-.694 2.123-2.1V7.05c0-1.407-.702-2.1-2.123-2.1H11.68v11.31ZM17.334 4.95v11.312h1.747V4.95h-1.747Zm-3.19 1.519c.441 0 .654.21.654.662v2.845c0 .452-.212.663-.653.663h-.718v-4.17h.718Z"
+                ></path>
+              </svg>
+              <svg
+                class="logo-arrow-sub"
+                width="64px"
+                height="64px"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke="#CCCCCC"
+                  stroke-width="0.096"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    d="M5.70711 9.71069C5.31658 10.1012 5.31658 10.7344 5.70711 11.1249L10.5993 16.0123C11.3805 16.7927 12.6463 16.7924 13.4271 16.0117L18.3174 11.1213C18.708 10.7308 18.708 10.0976 18.3174 9.70708C17.9269 9.31655 17.2937 9.31655 16.9032 9.70708L12.7176 13.8927C12.3271 14.2833 11.6939 14.2832 11.3034 13.8927L7.12132 9.71069C6.7308 9.32016 6.09763 9.32016 5.70711 9.71069Z"
+                    fill="#fff"
+                  ></path>
+                </g>
+              </svg>
+            </div>
+            <div class="discover-store">
+              <a href="./Home.html">
+                <img src="./assets/img/Logo Epic Games Store.svg" alt="" />
+              </a>
+            </div>
+            <div class="discover-menu">
+              <svg
+                class="hamburger-menu"
+                fill="#ffffff"
+                width="64px"
+                height="64px"
+                viewBox="0 0 32.00 32.00"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                stroke="#000000"
+                stroke-width="0.00032"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke="#CCCCCC"
+                  stroke-width="0.512"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    d="M0.844 6.050c-0.256-0.256-0.381-0.581-0.381-0.975s0.125-0.719 0.381-0.975 0.581-0.381 0.975-0.381h28.512c0.394 0 0.719 0.125 0.975 0.381s0.381 0.581 0.381 0.975-0.125 0.719-0.381 0.975-0.581 0.381-0.975 0.381h-28.512c-0.394 0-0.719-0.125-0.975-0.381zM31.306 14.963c0.256 0.256 0.381 0.581 0.381 0.975s-0.125 0.719-0.381 0.975-0.581 0.381-0.975 0.381h-28.512c-0.394 0-0.719-0.125-0.975-0.381s-0.381-0.581-0.381-0.975 0.125-0.719 0.381-0.975 0.581-0.381 0.975-0.381h28.512c0.394 0 0.719 0.125 0.975 0.381zM31.306 25.819c0.256 0.256 0.381 0.581 0.381 0.975s-0.125 0.719-0.381 0.975-0.581 0.381-0.975 0.381h-28.512c-0.394 0-0.719-0.125-0.975-0.381s-0.381-0.581-0.381-0.975 0.125-0.719 0.381-0.975 0.581-0.381 0.975-0.381h28.512c0.394 0 0.719 0.131 0.975 0.381z"
+                  ></path>
+                </g>
+              </svg>
+            </div>
+
+            <div class="discover-top-nav">
+              <svg
+                class="discover-mbl-search"
+                width="64px"
+                height="64px"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    d="M15.7955 15.8111L21 21M18 10.5C18 14.6421 14.6421 18 10.5 18C6.35786 18 3 14.6421 3 10.5C3 6.35786 6.35786 3 10.5 3C14.6421 3 18 6.35786 18 10.5Z"
+                    stroke="#fff"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </g>
+              </svg>
+
+              <a href="#" class="mbl-discover-subs">
+                <p class="subs-store">
+                  Discover
+                  <svg
+                    class="logo-arrow-sub"
+                    width="64px"
+                    height="64px"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke="#CCCCCC"
+                      stroke-width="0.096"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        d="M5.70711 9.71069C5.31658 10.1012 5.31658 10.7344 5.70711 11.1249L10.5993 16.0123C11.3805 16.7927 12.6463 16.7924 13.4271 16.0117L18.3174 11.1213C18.708 10.7308 18.708 10.0976 18.3174 9.70708C17.9269 9.31655 17.2937 9.31655 16.9032 9.70708L12.7176 13.8927C12.3271 14.2833 11.6939 14.2832 11.3034 13.8927L7.12132 9.71069C6.7308 9.32016 6.09763 9.32016 5.70711 9.71069Z"
+                        fill="#fff"
+                      ></path>
+                    </g>
+                  </svg>
+                </p>
+              </a>
+            </div>
+          </div>
+        </nav>
+
+        <div class="discover-first-slider">
+          <div class="swiper firstSlider">
+            <div class="swiper-wrapper">
+              <!-- <div class="swiper-slide">
+                <div class="slider-front-title">
+                  <img
+                    src="./assets/img/en-fnbr-41-00-c7s3-egs-featcarousel-logo-500x289-d356fcc7c607.png"
+                    alt=""
+                  />
+                  <p class="front-mini-title">
+                    This season, power isn’t given, it’s taken.
+                  </p>
+                  <p class="front-title">
+                    The Zero Point has warped reality, reassembling the Island
+                    as the Shattered Coast: a new map with twisted takes on
+                    familiar locations.
+                  </p>
+                </div>
+                <div class="slider-back-title">
+                  <img
+                    src="./assets/img/fnbr-41-00-c7s3-egs-featuredcarousel-mobile-1200x1600-1200x1600-5b33413bca09.avif"
+                    alt=""
+                    class="sliders-1"
+                  />
+                </div>
+              </div> -->
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+
+        <section class="discover-smth-new">
+          <div class="smth-new">
+            <div class="smth-top-image">
+              <img src="./assets/img/discover-smth.avif" alt="" />
+            </div>
+            <div class="smth-bottom-side">
+              <div class="swiper discoverNew">
+                <div class="swiper-wrapper">
+                  <!-- <div class="swiper-slide">
+                    <div class="card2-1">
+                      <div class="card-image-smth">
+                        <img
+                          src="./assets/img/zero-parades-11fr0.avif"
+                          alt=""
+                        />
+                      </div>
+                      <div class="card-title-smth">
+                        <p class="main-title">ZERO PARADISE: for..</p>
+                        <p class="main-price">€40.99</p>
+                      </div>
+                    </div>
+                  </div> -->
+                  <div class="swiper-slide">
+                    <div class="card2-1">
+                      <div class="card-image-smth">
+                        <img src="./assets/img/mixtape-5rk0f.avif" alt="" />
+                      </div>
+                      <div class="card-title-smth">
+                        <p class="main-title">Mixtape</p>
+                        <p class="main-price">€18.99</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card2-1">
+                      <div class="card-image-smth">
+                        <img
+                          src="./assets/img/dead-as-disco-atazj.webp"
+                          alt=""
+                        />
+                      </div>
+                      <div class="card-title-smth">
+                        <p class="main-title">Dead as Disco</p>
+                        <p class="main-price">€23.79</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card2-1">
+                      <div class="card-image-smth">
+                        <img
+                          src="./assets/img/hank-drowning-on-dry-land-16d4k.avif"
+                          alt=""
+                        />
+                      </div>
+                      <div class="card-title-smth">
+                        <p class="main-title">Hank: Drowning On Dry Land</p>
+                        <p class="main-price">€2.99</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card2-1">
+                      <div class="card-image-smth">
+                        <img
+                          src="./assets/img/will-follow-the-light-txjdc.avif"
+                          alt=""
+                        />
+                      </div>
+                      <div class="card-title-smth">
+                        <p class="main-title">WILL: Follow The Light</p>
+                        <p class="main-price">€24.99</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card2-1">
+                      <div class="card-image-smth">
+                        <img
+                          src="./assets/img/subnautica-2-1eodi.avif"
+                          alt=""
+                        />
+                      </div>
+                      <div class="card-title-smth">
+                        <p class="main-title">Subnautica 2</p>
+                        <p class="main-price">€29.99</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card2-1">
+                      <div class="card-image-smth">
+                        <img
+                          src="./assets/img/007-first-light-1ccui.avif"
+                          alt=""
+                        />
+                      </div>
+                      <div class="card-title-smth">
+                        <p class="main-title">007 First Light</p>
+                        <p class="main-price">€69.99</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card2-1">
+                      <div class="card-image-smth">
+                        <img src="./assets/img/outbound-1solh.avif" alt="" />
+                      </div>
+                      <div class="card-title-smth">
+                        <p class="main-title">Outbound</p>
+                        <p class="main-price">€24.99</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card2-1">
+                      <div class="card-image-smth">
+                        <img src="./assets/img/dinner-1hsix.avif" alt="" />
+                      </div>
+                      <div class="card-title-smth">
+                        <p class="main-title">
+                          LEGO® Batman™: Legacy of the Dark Knight
+                        </p>
+                        <p class="main-price">€69.99</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card2-1">
+                      <div class="card-image-smth">
+                        <img
+                          src="./assets/img/star-wars-galactic-racer-w9zyr.avif"
+                          alt=""
+                        />
+                      </div>
+                      <div class="card-title-smth">
+                        <p class="main-title">STAR WARS: Galactic Racer™</p>
+                        <p class="main-price">€69.99</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card2-1">
+                      <div class="card-image-smth">
+                        <img
+                          src="./assets/img/marvel-tokon-fighting-souls-1jo7k.webp"
+                          alt=""
+                        />
+                      </div>
+                      <div class="card-title-smth">
+                        <p class="main-title">MARVEL Tōkon: Fighting Souls</p>
+                        <p class="main-price">€69.99</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card2-1">
+                      <div class="card-image-smth">
+                        <img
+                          src="./assets/img/silent-hill-townfall-rdgi4.webp"
+                          alt=""
+                        />
+                      </div>
+                      <div class="card-title-smth">
+                        <p class="main-title">SILENT HILL: Townfall</p>
+                        <p class="main-price">€69.99</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card2-1">
+                      <div class="card-image-smth">
+                        <img
+                          src="./assets/img/corsair-cove-x67c4.avif"
+                          alt=""
+                        />
+                      </div>
+                      <div class="card-title-smth">
+                        <p class="main-title">Corsair Cove</p>
+                        <p class="main-price">€69.99</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="ads-1-1">
+          <!-- <a href="#" class="whats-new-fortnite">
+            <div class="advertise-fortnite">
+              <img
+                src="./assets/img/en-fnbr-41-00-c7s3-egs-featcarousel-logo-500x289-d356fcc7c607.png"
+                alt=""
+              />
+              <p class="main-adv-txt">This Week in Fortnite</p>
+              <p class="snd-ad-txt">
+                See what’s new in Fortnite all in one place.
+              </p>
+            </div>
+          </a> -->
+        </section>
+
+        <section class="featured-discount">
+          <a href="#" class="featured-link"> Featured Discounts > </a>
+          <div class="featured-sliders">
+            <div class="swiper featuredSwiper">
+              <div class="swiper-wrapper">
+                <!-- <div class="swiper-slide">
+                  <a href="#" class="fth-links">
+                    <div class="fth-banner">
+                      <img
+                        src="./assets/img/egs-ea-fc-26-world-game-carousel-mobile-1200x1600-48f6718774c2.avif"
+                        alt=""
+                      />
+                    </div>
+                    <div class="fth-title-off-price">
+                      <p class="fth-title">
+                        EA SPORTS FC™ 26 The World's Game Edition
+                      </p>
+                      <p class="fth-price">€17.99</p>
+                    </div>
+                  </a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="deals-of-the-week">
+          <div class="swiper dealsSwiper">
+            <div class="swiper-wrapper">
+              <!-- <div class="swiper-slide">
+                <div class="dow-card">
+                  <img
+                    src="./assets/img/we-were-here.avif"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      EA SPORTS FC™ 26 The World's Game Edition
+                    </p>
+                    <p class="dow-price">€17.99</p>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </section>
+
+        <section class="free-games">
+          <div class="free-games-back">
+            <div class="free-games-title-ink">
+              <p class="title-free">
+                <svg
+                  width="40px"
+                  height="40px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      d="M3 9.5C3 9.03534 3 8.80302 3.03843 8.60982C3.19624 7.81644 3.81644 7.19624 4.60982 7.03843C4.80302 7 5.03534 7 5.5 7H12H18.5C18.9647 7 19.197 7 19.3902 7.03843C20.1836 7.19624 20.8038 7.81644 20.9616 8.60982C21 8.80302 21 9.03534 21 9.5V9.5V9.5C21 9.96466 21 10.197 20.9616 10.3902C20.8038 11.1836 20.1836 11.8038 19.3902 11.9616C19.197 12 18.9647 12 18.5 12H12H5.5C5.03534 12 4.80302 12 4.60982 11.9616C3.81644 11.8038 3.19624 11.1836 3.03843 10.3902C3 10.197 3 9.96466 3 9.5V9.5V9.5Z"
+                      stroke="#fff"
+                      stroke-width="1"
+                      stroke-linejoin="round"
+                    ></path>
+                    <path
+                      d="M4 12V16C4 17.8856 4 18.8284 4.58579 19.4142C5.17157 20 6.11438 20 8 20H9H15H16C17.8856 20 18.8284 20 19.4142 19.4142C20 18.8284 20 17.8856 20 16V12"
+                      stroke="#fff"
+                      stroke-width="1"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                    <path
+                      d="M12 7V20"
+                      stroke="#fff"
+                      stroke-width="1"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                    <path
+                      d="M11.3753 6.21913L9.3959 3.74487C8.65125 2.81406 7.26102 2.73898 6.41813 3.58187C5.1582 4.8418 6.04662 7 7.82843 7L11 7C11.403 7 11.6271 6.53383 11.3753 6.21913Z"
+                      stroke="#fff"
+                      stroke-width="1"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                    <path
+                      d="M12.6247 6.21913L14.6041 3.74487C15.3488 2.81406 16.739 2.73898 17.5819 3.58187C18.8418 4.8418 17.9534 7 16.1716 7L13 7C12.597 7 12.3729 6.53383 12.6247 6.21913Z"
+                      stroke="#fff"
+                      stroke-width="1"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </g>
+                </svg>
+                Free Games
+              </p>
+              <a href="#" class="free-top-more-btn">View more</a>
+            </div>
+
+            <div class="free-games-layout">
+              <div class="layout text-center">
+                <div class="free-gms">
+                  <!-- <div class="card-main">
+                    <div class="dow-card">
+                      <img
+                        src="./assets/img/we-were-here.avif"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <p class="card-text">
+                          EA SPORTS FC™ 26 The World's Game Edition
+                        </p>
+                        <p class="dow-price">€17.99</p>
+                      </div>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="top-new-releases">
+          <a href="#" class="featured-link"> Top New Releases > </a>
+          <div class="featured-sliders">
+            <div class="swiper featuredSwiper">
+              <div class="swiper-wrapper"></div>
+            </div>
+          </div>
+        </section>
+
+        <footer class="mbl-footer">
+          <div class="back-g">
+            <div class="top-links">
+              <div class="logo">
+                <a href="#"
+                  ><img src="./assets/img/Logo Epic Games Store.svg" alt="Home"
+                /></a>
+              </div>
+              <div class="social-links">
+                <div class="facebook">
+                  <a href="#">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M14.91 1c1.369 0 2.802.244 2.802.244v3.082h-1.58c-1.554 0-2.04.965-2.04 1.955v2.35h3.473l-.555 3.619h-2.918V21H10.18v-8.75H7V8.63h3.18V5.873C10.18 2.734 12.049 1 14.91 1"
+                      ></path>
+                    </svg>
+                  </a>
+                </div>
+                <div class="twitter">
+                  <a href="#">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="m8.36 3 4.647 6.618L18.825 3h1.588l-6.701 7.622L21 21h-5.36l-4.908-6.988L4.588 21H3l7.027-7.992L3 3zm-3.2 1.17 5.665 7.929.712.997 4.85 6.788h2.44l-5.944-8.319-.712-.996L7.6 4.17z"
+                      ></path>
+                    </svg>
+                  </a>
+                </div>
+                <div class="youtube">
+                  <a href="#">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M12.004 5s4.2 0 6.996.203c.39.047 1.242.05 2.004.848.601.605.797 1.984.797 1.984 0 .001.199 1.622.199 3.238v1.516c0 1.621-.2 3.238-.2 3.238 0 .001-.195 1.38-.796 1.985-.762.797-1.613.8-2.004.847-2.797.2-6.999.207-7 .207 0 0-5.2-.046-6.8-.199-.446-.086-1.446-.058-2.208-.855-.597-.605-.793-1.983-.793-1.985 0 0-.199-1.62-.199-3.238v-1.516c0-1.616.203-3.237.203-3.238s.192-1.379.793-1.984C3.758 5.254 4.61 5.25 5 5.203 7.797 5 11.996 5 11.996 5zm-2.07 9.629 5.402-2.8-5.402-2.821z"
+                      ></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="bottom-acr-links">
+              <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseOne"
+                      aria-expanded="true"
+                      aria-controls="panelsStayOpen-collapseOne"
+                    >
+                      <h6 class="title">Games</h6>
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseOne"
+                    class="accordion-collapse collapse"
+                  >
+                    <div class="accordion-body">
+                      <ul class="games">
+                        <li><a href="#">Fortnite</a></li>
+                        <li><a href="#">Fall Guys</a></li>
+                        <li><a href="#">Rocket League</a></li>
+                        <li><a href="#">Unreal Tournoment</a></li>
+                        <li><a href="#">Infinity Blade</a></li>
+                        <li><a href="#">Shadow Complex</a></li>
+                        <li><a href="#">Robo Recall</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseTwo"
+                    >
+                      <h6 class="title">Marketplace</h6>
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseTwo"
+                    class="accordion-collapse collapse"
+                  >
+                    <div class="accordion-body">
+                      <ul class="market">
+                        <li><a href="#">Fab</a></li>
+                        <li><a href="#">Epic Games Store</a></li>
+                        <li><a href="#">Quixel Megascans on Fab</a></li>
+                        <li><a href="#">Quixel Megascans on Fab</a></li>
+                        <li><a href="#">Sketchfab</a></li>
+                        <li><a href="#">ArtStation</a></li>
+                        <li><a href="#">Store Refund Policy</a></li>
+                        <li><a href="#">Store EULA</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseThree"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseThree"
+                    >
+                      <h6 class="title">Tools</h6>
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseThree"
+                    class="accordion-collapse collapse"
+                  >
+                    <div class="accordion-body">
+                      <ul class="tools">
+                        <li><a href="#">Unreal Engine</a></li>
+                        <li><a href="#">UEFN</a></li>
+                        <li><a href="#">MetalHuman</a></li>
+                        <li><a href="#">Twinmotion</a></li>
+                        <li><a href="#">RealityScan</a></li>
+                        <li><a href="#">RAD Game Tools</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseFour"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseFour"
+                    >
+                      <h6 class="title">Online Services</h6>
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseFour"
+                    class="accordion-collapse collapse"
+                  >
+                    <div class="accordion-body">
+                      <ul class="service">
+                        <li><a href="#">Epic Online Services</a></li>
+                        <li><a href="#">Kids Web Services</a></li>
+                        <li><a href="#">Services Agreement</a></li>
+                        <li><a href="#">Acceptable Use Policy</a></li>
+                        <li><a href="#">Trust Statement</a></li>
+                        <li><a href="#">Subprocessor list</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseFive"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseFive"
+                    >
+                      <h6 class="title">Company</h6>
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseFive"
+                    class="accordion-collapse collapse"
+                  >
+                    <div class="accordion-body">
+                      <ul class="company">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Newsroom</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Students</a></li>
+                        <li><a href="#">UX Reasearch</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseSix"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseSix"
+                    >
+                      <h6 class="title">Resources</h6>
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseSix"
+                    class="accordion-collapse collapse"
+                  >
+                    <div class="accordion-body">
+                      <ul class="resource">
+                        <li><a href="#">Dev Community</a></li>
+                        <li><a href="#">MegaGrants</a></li>
+                        <li><a href="#">Support-A-Creator</a></li>
+                        <li><a href="#">Disturbute on Epic Games</a></li>
+                        <li>
+                          <a href="#">Unreal Engine Branding Guidelines</a>
+                        </li>
+                        <li><a href="#">Fan Art Policy</a></li>
+                        <li><a href="#">Community Rules</a></li>
+                        <li>
+                          <a href="#">EU Digital Services Act inquiries</a>
+                        </li>
+                        <li><a href="#">Epic Pro Support</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </section>
+    </section>
+
+    <script src="./bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./swiper/swiper-bundle.min.js"></script>
+    <script type="module" src="./assets/js/main.js"></script>
+    <script>
+      var swiper = new Swiper(".firstSlider", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        rewind: true,
+        centeredSlides: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          340: {
+            slidesPerView: 1.2,
+            spaceBetween: 0,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+            loop: true,
+          },
+          1024: {
+            slidesPerView: 5,
+            spaceBetween: 50,
+          },
+        },
+      });
+    </script>
+    <script>
+      var swiper = new Swiper(".discoverNew", {
+        slidesPerView: 1.1,
+        grid: {
+          rows: 3,
+        },
+        // rewind: true,
+        loop: true,
+        centeredSlides: true,
+        spaceBetween: 10,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+    <script>
+      var swiper = new Swiper(".featuredSwiper", {
+        slidesPerView: 1.2,
+        spaceBetween: 40,
+      });
+    </script>
+    <script>
+      var swiper = new Swiper(".dealsSwiper", {
+        slidesPerView: 1.1,
+        spaceBetween: 20,
+        pagination: {
+          el: ".swiper-pagination",
+          dynamicBullets: true,
+        },
+      });
+    </script>
+    <script>
+      var swiper = new Swiper(".deskdiscoverSwiper", {
+        slidesPerView: 3,
+        grid: {
+          rows: 1,
+        },
+        spaceBetween: 0,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          777: {
+            slidesPerView: 1,
+            spaceBetween: 50,
+          },
+          1024: {
+            slidesPerView: 2,
+            spaceBetween: -40,
+          },
+          1348: {
+            slidesPerView: 2.3,
+            spaceBetween: 50,
+          },
+        },
+      });
+    </script>
+    <script>
+      var swiper = new Swiper(".topNewSwiper", {
+        slidesPerView: 6,
+        spaceBetween: 10,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>

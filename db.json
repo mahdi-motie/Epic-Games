@@ -1,0 +1,468 @@
+{
+  "sliderNews": [
+    {
+      "id": "1",
+      "img": "./assets/img/1.avif",
+      "alt": "img-slider-1",
+      "timeRelese": "1MO AGO",
+      "titleSlider": "From a 2027 movie to Scooby-Doo, Dead by Daylight looks to shake up the next decade of its universe of horror",
+      "infoSlider": "How the game might let you hang out with buddies, and a look at the visual overhaul"
+    },
+    {
+      "id": "2",
+      "img": "./assets/img/2.avif",
+      "alt": "img-slider-2",
+      "timeRelese": "2MO AGO",
+      "titleSlider": "Creating the controlled chaos and chilling urgency of Star Wars Escape Vader in Fortnite",
+      "infoSlider": "From Star Wars bedsheets and PJs to making a game set in a galaxy far, far away"
+    }
+  ],
+  "lastNews": [
+    {
+      "id": "1",
+      "img": "./assets/img/100.avif",
+      "alt": "last-img-1",
+      "daysAgo": "5",
+      "titleNews": "Fluffy, fierce, and 99 OVR: College Football 27 brings back Mascot Mashup, with 120 to unlock",
+      "infoNews": "With 80-yard field goals, maxed-out stats, and mascots hitting touchdowns, the most 'extra' mode in sports gaming history is officially back."
+    },
+    {
+      "id": "2",
+      "img": "./assets/img/101.avif",
+      "alt": "last-img-2",
+      "daysAgo": "7",
+      "titleNews": "Warframe goes noir, drops in Fortnite, gets new Star Chart",
+      "infoNews": ""
+    },
+    {
+      "id": "3",
+      "img": "./assets/img/103.avif",
+      "alt": "last-img-3",
+      "daysAgo": "12",
+      "titleNews": "Winnie the Pooh, Winnie the Pooh, is coming to Disney Dreamlight Valley with friends",
+      "infoNews": ""
+    },
+    {
+      "id": "4",
+      "img": "./assets/img/104.avif",
+      "alt": "last-img-4",
+      "daysAgo": "12",
+      "titleNews": "Assassin’s Creed Black Flag Resynced guide - How to recruit all ship officers",
+      "infoNews": "Get all hands on deck by recruiting all ship officers in Assassin’s Creed Black Flag Resynced."
+    },
+    {
+      "id": "5",
+      "img": "./assets/img/105.avif",
+      "alt": "last-img-5",
+      "daysAgo": "19",
+      "titleNews": "The basics of Balatro: essential tips and strategies for your first runs",
+      "infoNews": "Here’s how to get started: learn how poker hands, card packs, and early Joker synergies work."
+    },
+    {
+      "id": "6",
+      "img": "./assets/img/106.avif",
+      "alt": "last-img-6",
+      "daysAgo": "20",
+      "titleNews": "Crossfire reimagined: How That’s No Moon is reinventing stealth games",
+      "infoNews": "Taylor Kurosaki and Jacob Minkof of That’s No Moon discusses reimagining Crossfire as a third-person stealth game featuring autonomous AI, complex terrain, and supernatural threats."
+    },
+    {
+      "id": "7",
+      "img": "./assets/img/107.webp",
+      "alt": "last-img-7",
+      "daysAgo": "21",
+      "titleNews": "MARVEL: Tōkon gets July Demo, Final Team Revealed",
+      "infoNews": ""
+    },
+    {
+      "id": "8",
+      "img": "./assets/img/109.avif",
+      "alt": "last-img-8",
+      "daysAgo": "24",
+      "titleNews": "Honkai: Star Rail 4.3 guide: Events, free Jades, & banner schedule",
+      "infoNews": "Blade finally gets a much-needed spotlight in Honkai: Star Rail 4.3."
+    },
+    {
+      "id": "9",
+      "img": "./assets/img/108.avif",
+      "alt": "last-img-9",
+      "daysAgo": "25",
+      "titleNews": "Final Fantasy VII Revelation wraps up Square Enix’s epic trilogy in 2027, wishlist now",
+      "infoNews": "Discover new playable characters, the Highwind airship, and the FITS system."
+    },
+    {
+      "id": "10",
+      "img": "./assets/img/110.avif",
+      "alt": "last-img-10",
+      "daysAgo": "26",
+      "titleNews": "Infinity Nikki 2.7 guide: Where Stars Yearn event & rewards",
+      "infoNews": "Join Nikki on stage at the Sea of Stars’ latest summer-themed bash."
+    }
+  ],
+  "sliderNewsM": [
+    {
+      "id": "1",
+      "img": "./assets/img/1.avif",
+      "alt": "img-slider-1",
+      "timeRelese": "1MO AGO",
+      "titleSlider": "From a 2027 movie to Scooby-Doo, Dead by Daylight looks to shake up the next decade of its universe of horror",
+      "infoSlider": "How the game might let you hang out with buddies, and a look at the visual overhaul"
+    },
+    {
+      "id": "2",
+      "img": "./assets/img/2.avif",
+      "alt": "img-slider-2",
+      "timeRelese": "2MO AGO",
+      "titleSlider": "Creating the controlled chaos and chilling urgency of Star Wars Escape Vader in Fortnite",
+      "infoSlider": "From Star Wars bedsheets and PJs to making a game set in a galaxy far, far away"
+    }
+  ],
+  "lastNewsM": [
+    {
+      "id": "1",
+      "img": "./assets/img/100.avif",
+      "alt": "last-img-1",
+      "daysAgo": "5",
+      "titleNews": "Fluffy, fierce, and 99 OVR: College Football 27 brings back Mascot Mashup, with 120 to unlock",
+      "infoNews": "With 80-yard field goals, maxed-out stats, and mascots hitting touchdowns, the most 'extra' mode in sports gaming history is officially back."
+    },
+    {
+      "id": "2",
+      "img": "./assets/img/101.avif",
+      "alt": "last-img-2",
+      "daysAgo": "7",
+      "titleNews": "Warframe goes noir, drops in Fortnite, gets new Star Chart",
+      "infoNews": ""
+    },
+    {
+      "id": "3",
+      "img": "./assets/img/103.avif",
+      "alt": "last-img-3",
+      "daysAgo": "12",
+      "titleNews": "Winnie the Pooh, Winnie the Pooh, is coming to Disney Dreamlight Valley with friends",
+      "infoNews": ""
+    },
+    {
+      "id": "4",
+      "img": "./assets/img/104.avif",
+      "alt": "last-img-4",
+      "daysAgo": "12",
+      "titleNews": "Assassin’s Creed Black Flag Resynced guide - How to recruit all ship officers",
+      "infoNews": "Get all hands on deck by recruiting all ship officers in Assassin’s Creed Black Flag Resynced."
+    },
+    {
+      "id": "5",
+      "img": "./assets/img/105.avif",
+      "alt": "last-img-5",
+      "daysAgo": "19",
+      "titleNews": "The basics of Balatro: essential tips and strategies for your first runs",
+      "infoNews": "Here’s how to get started: learn how poker hands, card packs, and early Joker synergies work."
+    },
+    {
+      "id": "6",
+      "img": "./assets/img/106.avif",
+      "alt": "last-img-6",
+      "daysAgo": "20",
+      "titleNews": "Crossfire reimagined: How That’s No Moon is reinventing stealth games",
+      "infoNews": "Taylor Kurosaki and Jacob Minkof of That’s No Moon discusses reimagining Crossfire as a third-person stealth game featuring autonomous AI, complex terrain, and supernatural threats."
+    },
+    {
+      "id": "7",
+      "img": "./assets/img/107.webp",
+      "alt": "last-img-7",
+      "daysAgo": "21",
+      "titleNews": "MARVEL: Tōkon gets July Demo, Final Team Revealed",
+      "infoNews": ""
+    },
+    {
+      "id": "8",
+      "img": "./assets/img/109.avif",
+      "alt": "last-img-8",
+      "daysAgo": "24",
+      "titleNews": "Honkai: Star Rail 4.3 guide: Events, free Jades, & banner schedule",
+      "infoNews": "Blade finally gets a much-needed spotlight in Honkai: Star Rail 4.3."
+    },
+    {
+      "id": "9",
+      "img": "./assets/img/108.avif",
+      "alt": "last-img-9",
+      "daysAgo": "25",
+      "titleNews": "Final Fantasy VII Revelation wraps up Square Enix’s epic trilogy in 2027, wishlist now",
+      "infoNews": "Discover new playable characters, the Highwind airship, and the FITS system."
+    },
+    {
+      "id": "10",
+      "img": "./assets/img/110.avif",
+      "alt": "last-img-10",
+      "daysAgo": "26",
+      "titleNews": "Infinity Nikki 2.7 guide: Where Stars Yearn event & rewards",
+      "infoNews": "Join Nikki on stage at the Sea of Stars’ latest summer-themed bash."
+    }
+  ],
+  "firstCard": [
+    {
+      "id": "1",
+      "titleText": "Keep 100% revenue share on your first $1M in net revenue per product, per year. Afterwards, return to our standard 88%/12% model.",
+      "link": "Visit our FAQ",
+      "img": "./assets/img/200.avif",
+      "alt": "card-img-1"
+    },
+    {
+      "id": "2",
+      "titleText": "Built for mobile and PC. Platform-agnostic, revenue-friendly and easy to set up.",
+      "link": "Explore Web Shops Now",
+      "img": "./assets/img/201.avif",
+      "alt": "card-img-2"
+    }
+  ],
+  "secondCard": [
+    {
+      "id": "1",
+      "titleText": "Reach a Global Audience",
+      "description": "Direct distribution to over 295 million Epic users across 187 countries with 16 languages supported.",
+      "img": "./assets/img/300.avif",
+      "alt": "card-img-1"
+    },
+    {
+      "id": "2",
+      "titleText": "100%/0% Revenue Share",
+      "description": "Keep 100% revenue share on the first $1M in net revenue per product, per year. Afterwards, return to our standard 88%/12% model.",
+      "img": "./assets/img/301.avif",
+      "alt": "card-img-2"
+    },
+    {
+      "id": "3",
+      "titleText": "Drive Player Engagement",
+      "description": "Tap into store features like wishlists, achievements, store-wide promotions and more!",
+      "img": "./assets/img/302.avif",
+      "alt": "card-img-3"
+    }
+  ],
+  "thirdCard": [
+    {
+      "id": "1",
+      "titleText": "Worldwide E-Commerce",
+      "description": "Epic's payment service supports 80+ payment methods with 43 regional currencies and more on the way.",
+      "img": "./assets/img/304.avif",
+      "alt": "card-img-1"
+    },
+    {
+      "id": "2",
+      "titleText": "Epic Account Balance",
+      "description": "Users can load up their balance with funds to spend on products and services in the store, now available in more than 187 countries.",
+      "img": "./assets/img/305.avif",
+      "alt": "card-img-2"
+    },
+    {
+      "id": "3",
+      "titleText": "Additional Benefits",
+      "description": "Easy IARC ratings in Epic Developer Portal, request no-cost localization for store pages and activate our Support-A-Creator affiliate network.",
+      "img": "./assets/img/306.avif",
+      "alt": "card-img-3"
+    }
+  ],
+  "fourthCard": [
+    {
+      "id": "1",
+      "titleText": "Our opt-in exclusivity program offers 100% revenue share for your first 6 months, no matter how much you earn.",
+      "link": "Learn more",
+      "img": "./assets/img/307.avif",
+      "alt": "card-img-1"
+    }
+  ],
+  "fifthCard": [
+    {
+      "id": "1",
+      "titleText": "Join the discussion or create topics for community support around distribution.",
+      "link": "Go to the community",
+      "img": "./assets/img/308.avif",
+      "alt": "card-img-1"
+    },
+    {
+      "id": "2",
+      "titleText": "Launch Everywhere with Epic' and save on engine royalty fees.",
+      "link": "Learn How",
+      "img": "./assets/img/309.avif",
+      "alt": "card-img-2"
+    }
+  ],
+  "sixthCard": [
+    {
+      "id": "1",
+      "titleText": "Unreal Engine",
+      "description": "The world's most open and advanced real-time 3D creation tool.",
+      "link": "Learn more",
+      "img": "./assets/img/310.avif",
+      "alt": "card-img-1"
+    },
+    {
+      "id": "2",
+      "titleText": "Epic Online Services",
+      "description": "A modular set of online services to connect your community across all platforms.",
+      "link": "Explore our services",
+      "img": "./assets/img/311.avif",
+      "alt": "card-img-2"
+    },
+    {
+      "id": "3",
+      "titleText": "Kids Web Services",
+      "description": "The leading parent verification and consent management toolset in the world.",
+      "link": "Learn more",
+      "img": "./assets/img/312.avif",
+      "alt": "card-img-3"
+    }
+  ],
+  "firstCardM": [
+    {
+      "id": "1",
+      "img": "./assets/img/10.png",
+      "alt": "img-1",
+      "titleText": "Open to all developers and publishers",
+      "description": "Start distributing PC games on the Epic Games Store with our self-service publishing tools."
+    }
+  ],
+  "secondCardM": [
+    {
+      "id": "1",
+      "titleText": "Keep 100% revenue share on your first $1M in net revenue per product, per year. Afterwards, return to our standard 88%/12% model.",
+      "link": "Visit our FAQ",
+      "img": "./assets/img/200.avif",
+      "alt": "img-1"
+    },
+    {
+      "id": "2",
+      "titleText": "",
+      "link": "",
+      "img": "./assets/img/201.avif",
+      "alt": "img-2"
+    },
+    {
+      "id": "3",
+      "titleText": "Reach a Global Audience",
+      "link": "Direct distribution to over 295 million Epic users across 187 countries with 16 languages supported.",
+      "img": "./assets/img/300.avif",
+      "alt": "img-3"
+    },
+    {
+      "id": "4",
+      "titleText": "100%/0% Revenue Share",
+      "link": "Keep 100% revenue share on the first $1M in net revenue per product, per year. Afterwards, return to our standard 88%/12% model.",
+      "img": "./assets/img/301.avif",
+      "alt": "img-4"
+    },
+    {
+      "id": "5",
+      "titleText": "Drive Player Engagement",
+      "link": "Tap into store features like wishlists, achievements, store-wide promotions and more!",
+      "img": "./assets/img/302.avif",
+      "alt": "img-5"
+    },
+    {
+      "id": "6",
+      "titleText": "Worldwide E-Commerce",
+      "link": "Epic's payment service supports 80+ payment methods with 43 regional currencies and more on the way.",
+      "img": "./assets/img/304.avif",
+      "alt": "img-6"
+    },
+    {
+      "id": "7",
+      "titleText": "Epic Account Balance",
+      "link": "Users can load up their balance with funds to spend on products and services in the store, now available in more than 187 countries.",
+      "img": "./assets/img/305.avif",
+      "alt": "img-7"
+    },
+    {
+      "id": "8",
+      "titleText": "Additional Benefits",
+      "link": "Easy IARC ratings in Epic Developer Portal, request no-cost localization for store pages and activate our Support-A-Creator affiliate network.",
+      "img": "./assets/img/306.avif",
+      "alt": "img-8"
+    },
+    {
+      "id": "9",
+      "titleText": "Our opt-in exclusivity program offers 100% revenue share for your first 6 months, no matter how much you earn.",
+      "link": "Learn more",
+      "img": "./assets/img/307.avif",
+      "alt": "img-9"
+    },
+    {
+      "id": "10",
+      "titleText": "Join the discussion or create topics for community support around distribution.",
+      "link": "Go to the community",
+      "img": "./assets/img/308.avif",
+      "alt": "img-10"
+    },
+    {
+      "id": "11",
+      "titleText": "Launch Everywhere with Epic' and save on engine royalty fees.",
+      "link": "Learn How",
+      "img": "./assets/img/309.avif",
+      "alt": "img-11"
+    },
+    {
+      "id": "12",
+      "titleText": "Unreal Engine",
+      "link": "Learn more",
+      "img": "./assets/img/310.avif",
+      "alt": "img-12"
+    },
+    {
+      "id": "13",
+      "titleText": "Epic Online Services",
+      "link": "Explore our services",
+      "img": "./assets/img/311.avif",
+      "alt": "img-13"
+    },
+    {
+      "id": "14",
+      "titleText": "Kids Web Services",
+      "link": "Learn more",
+      "img": "./assets/img/312.avif",
+      "alt": "img-14"
+    }
+  ],
+  "sliderOne": [
+    {
+      "id": "1",
+      "img": "./assets/img/1001.avif",
+      "alt": "img-1",
+      "title": "Assassin's Creed Black Flag...",
+      "price": "$59.99"
+    },
+    {
+      "id": "2",
+      "img": "./assets/img/1002.avif",
+      "alt": "img-2",
+      "title": "NTE: Neverness to Everness",
+      "price": "Free"
+    },
+    {
+      "id": "3",
+      "img": "./assets/img/1003.avif",
+      "alt": "img-3",
+      "title": "EA SPORTS™ College Football 27",
+      "price": "$69.99"
+    },
+    {
+      "id": "4",
+      "img": "./assets/img/1004.webp",
+      "alt": "img-4",
+      "title": "Monopoly: Star Wars™ Heroes vs...",
+      "price": "$29.99"
+    },
+    {
+      "id": "5",
+      "img": "./assets/img/1005.webp",
+      "alt": "img-5",
+      "title": "Junkster",
+      "price": "$4.49"
+    },
+    {
+      "id": "6",
+      "img": "./assets/img/1006.avif",
+      "alt": "img-6",
+      "title": "The Last Citadel",
+      "price": "$6.69"
+    }
+  ]
+}

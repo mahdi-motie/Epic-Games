@@ -1,0 +1,47 @@
+.deals-of-the-week-dsk {
+  width: 90%;
+  height: fit-content;
+  margin: 85px auto !important;
+}
+.deals-of-the-week-dsk .deals-dsk {
+  width: 86%;
+  margin: 0 auto !important;
+}
+.deals-of-the-week-dsk .deals-dsk .parent {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 8px;
+}
+.deals-of-the-week-dsk .deals-dsk .parent div img {
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+}
+.deals-of-the-week-dsk .deals-dsk .parent .div1 {
+  grid-column: span 2 / span 2;
+  grid-row: span 4 / span 4;
+}
+.deals-of-the-week-dsk .deals-dsk .parent .div1 .dow-card {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 20px;
+}
+.deals-of-the-week-dsk .deals-dsk .parent .div1 .dow-card p.dow-price {
+  padding-top: 10px;
+}
+.deals-of-the-week-dsk .deals-dsk .parent .div1 .dow-card p {
+  color: white;
+  padding: 0px 5px;
+}
+.deals-of-the-week-dsk .deals-dsk .parent .div2 {
+  grid-column: span 2 / span 2;
+  grid-row: span 4 / span 4;
+  grid-column-start: 3;
+}
+
+.deals-of-the-week-dsk .deals-dsk .parent .div3 {
+  grid-column: span 2 / span 2;
+  grid-row: span 4 / span 4;
+  grid-column-start: 5;
+}

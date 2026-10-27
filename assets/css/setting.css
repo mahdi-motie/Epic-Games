@@ -1,0 +1,54 @@
+* {
+  margin: 0 !important;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+  list-style: none;
+  font-family: Epic;
+}
+
+@font-face {
+  font-family: Epic;
+  src: url(../font/Inter-Regular.woff2);
+}
+
+@media (max-width: 990px) {
+  .Home-Desktop {
+    display: none;
+  }
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+@media (max-width: 990px) {
+  .Home-Desktop {
+    display: none;
+  }
+}
+@media (min-width: 991px) {
+  .Home-Desktop {
+    display: block;
+  }
+  .mbl-disvover {
+    display: none;
+  }
+}

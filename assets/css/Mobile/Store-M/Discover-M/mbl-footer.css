@@ -1,0 +1,59 @@
+footer.mbl-footer {
+    width: 100%;
+    height: fit-content;
+    
+}
+footer.mbl-footer .back-g {
+    width: 100%;
+    height: 100%;
+    background-color: #202024;
+}
+footer.mbl-footer .back-g .top-links {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+footer.mbl-footer .back-g .top-links .social-links {
+    width: 200px;
+    height: fit-content;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    fill: silver;
+}
+footer.mbl-footer .back-g .top-links .social-links svg {
+    width: 30px;
+}
+footer.mbl-footer .back-g .top-links div.logo a{
+    width: 100%;
+    height: fit-content;
+    /* margin: 0 auto; */
+}
+footer.mbl-footer .back-g .top-links div.logo a img {
+    width: 100%;
+    height: 100%;
+
+}
+footer.mbl-footer .back-g .bottom-acr-links {
+    width: 95%;
+    height: fit-content;
+    margin: 0 auto !important;
+}
+footer.mbl-footer .back-g .bottom-acr-links .accordion .accordion-item {
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-radius: 0px;
+}
+footer.mbl-footer .back-g .bottom-acr-links .accordion .accordion-button {
+    background-color: transparent;
+    color: white;
+}

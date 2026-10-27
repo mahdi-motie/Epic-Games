@@ -1,0 +1,17 @@
+@import url(./nav-on-epic-D.css);
+@import url(./title-on-epic-D.css);
+@import url(./first-card-on-epic-D.css);
+@import url(./second-card-on-epic-D.css);
+@import url(./third-card-on-epic-D.css);
+@import url(./fourth-card-on-epic-D.css);
+@import url(./fifth-card-on-epic-D.css);
+@import url(./sixth-card-on-epic-D.css);
+@import url(./accardion-on-epic-D.css);
+@import url(../../Store/home/home-nav.css);
+
+
+
+
+.on-epic-mobile{
+    display: none;
+}

@@ -1,0 +1,9 @@
+@import url(./nav-news-D.css);
+@import url(./slider-news-D.css);
+@import url(./last-game-news-D.css);
+
+
+
+.news-mobile{
+    display: none;
+}

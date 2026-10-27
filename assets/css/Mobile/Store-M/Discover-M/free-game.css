@@ -1,0 +1,85 @@
+section.free-games {
+  width: 100%;
+  height: fit-content;
+  background-color: #101014;
+  display: flex;
+  flex-flow: column wrap;
+}
+.free-games .free-games-back {
+  width: 100%;
+  height: fit-content;
+  padding: 10px;
+  border: 1px solid #ffffff1a;
+  background-color: #202024;
+  border-radius: 15px;
+  position: relative;
+}
+.free-games .free-games-back .free-games-title-ink {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-flow: row wrap;
+}
+.free-games .free-games-back .free-games-title-ink .title-free {
+  width: 50%;
+  display: flex;
+  padding-left: 20px;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 900;
+  gap: 10px;
+  color: white;
+}
+.free-games .free-games-back .free-games-title-ink .free-top-more-btn {
+  width: fit-content;
+  height: 40px;
+  border-radius: 10px;
+  padding: 7px 15px;
+  color: white;
+  border: 1px solid white;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 20px;
+  top: 30px;
+}
+
+.free-games .free-games-back .free-games-layout {
+  width: 100%;
+  height: fit-content;
+  padding: 20px;
+}
+.free-games .free-games-back .free-games-layout div.layout {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto !important;
+}
+.free-games .free-games-back .free-games-layout div.layout .free-gms {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto !important;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+  justify-content: space-around;
+  align-items: center;
+  overflow: scroll;
+}
+.free-games .free-games-back .free-games-layout div.layout .card-main {
+  width: 100%;
+  height: fit-content;
+  
+}
+.free-games .free-games-back .free-games-layout div.layout .card-main .dow-card {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 15px;
+}
+.free-games .free-games-back .free-games-layout div.layout .card-main img {
+  object-fit: cover;
+  border-radius: 15px;
+}
+.free-games .free-games-back .free-games-layout div.layout .card-main div p {
+  color: white;
+}

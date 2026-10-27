@@ -1,0 +1,59 @@
+.Home-nav {
+  width: 100%;
+  height: 72px;
+  background-color: #121216;
+  /* background-color: white; */
+  display: flex;
+  position: relative;
+}
+.Home-nav .nav-l {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 0px;
+  width: 25%;
+  margin: 23px 14px;
+}
+.Home-nav .nav-l .nav-logo {
+  width: 35px;
+  height: 16px;
+  cursor: pointer;
+  display: flex;
+  position: relative;
+  top: 0;
+  left: 10px;
+}
+.Home-nav .nav-l .nav-logo svg.logo-svg {
+  width: 32px;
+  height: 32px;
+
+  top: 0;
+  left: 0;
+}
+.Home-nav .nav-l .nav-logo .logo-arrow-sub {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transition: 300ms;
+}
+.Home-nav .nav-l .nav-logo:hover .logo-arrow-sub {
+  transform: rotate(180deg);
+}
+
+.Home-nav .nav-l .nav-support a {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+}
+.Home-nav .nav-l .nav-distribute a {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+}
+.Home-nav .nav-l .nav-distribute a svg.logo-arrow-sub {
+  width: 20px;
+  height: 20px;
+  transition: 300ms;
+}

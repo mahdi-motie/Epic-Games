@@ -1,0 +1,89 @@
+.free-games-dsk {
+    width: 100%;
+    max-width: 78%;
+    height: fit-content;
+    margin: 0 auto !important;
+    background-color: #202024;
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+.free-games-dsk .free-games-top-nav {
+    width: 100%;
+    height: 60px;
+    background-color: unset !important;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.free-games-dsk .free-games-top-nav .free-games-title {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    padding-left: 30px !important;
+    gap: 10px;
+    font-size: 21px;
+    font-weight: 700;
+    align-items: center;
+    color: white;
+    /* background-color: olive !important; */
+}
+.free-games-dsk .free-games-top-nav .view-more-btn {
+    /* position: absolute; */
+    /* right: 20px; */
+    text-align: center;
+    /* padding: px; */
+    width: 120px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    position: absolute;
+    right: 0;
+
+}
+.free-games-dsk .free-games-top-nav .view-more-btn a {
+    color: white;
+}
+.free-games-dsk .free-games-top-nav .view-more-btn:hover {
+    background: #ffffff26;
+}
+
+.free-games-dsk .cards {
+    width: 45%;
+    padding: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+
+
+}
+.free-games-dsk .cards img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+.free-games-dsk .cards .card-1 {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 15px;
+}
+.free-games-dsk .cards .card-1 p.title {
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+.free-games-dsk .cards .card-1 p.description {
+    font-size: 18px;
+    font-weight: 600;
+    color: gray;
+}

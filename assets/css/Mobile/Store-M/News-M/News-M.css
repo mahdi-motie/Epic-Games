@@ -1,0 +1,9 @@
+@import url(./nav-news-M.css);
+@import url(./first-slider-news-mobile.css);
+@import url(./last-news-M.css);
+@import url(./footer.css);
+@import url(../Discover-M/discover-nav.css);
+
+.news-Desktop{
+    display: none;
+}

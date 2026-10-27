@@ -1,0 +1,37 @@
+.accardion-on-epic-M .accordion{
+    width: 80%;
+    height: fit-content;
+    margin: 10px auto !important;
+    border-radius: 8px;
+    
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.accardion-on-epic-M .accordion .accordion-item .accordion-header .accordion-button{
+    color: #ffffffa6;
+    background: rgba(255, 255, 255, 0.05);
+    outline: unset;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+
+.accardion-on-epic-M .accordion .accordion-item .accordion-collapse .accordion-body{
+    color: #ffffffa6;
+    background: rgba(255, 255, 255, 0.05);
+    outline: unset;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+
+.accardion-on-epic-M .accordion .accordion-item .accordion-header{
+    border-radius: 8px;
+}
+
+.accardion-on-epic-M .accordion .accordion-item .accordion-collapse{
+    border-radius: 8px;
+}
+
+
+section.on-epic-mobile {
+    background-color: #101014;
+}

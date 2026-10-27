@@ -1,0 +1,26 @@
+.footer-M{
+    background-color: #18181c;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 40px;
+    padding: 80px 16px;
+}
+
+.footer-M .social-media-m{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0px;
+}
+
+.footer-M .social-media-m .svg-social-media-m{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 10px;
+}

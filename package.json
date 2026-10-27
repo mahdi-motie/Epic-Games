@@ -1,0 +1,19 @@
+{
+  "name": "epic-games",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "TKcoderZZZ",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "epic": "json-server --watch db.json"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "json-server": "^1.0.0-beta.15",
+    "node": "^26.3.0",
+    "swiper": "^12.2.0"
+  }
+}

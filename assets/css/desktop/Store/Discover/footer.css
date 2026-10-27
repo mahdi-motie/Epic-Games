@@ -1,0 +1,91 @@
+footer.dsk-footer {
+    width: 100%;
+    height: fit-content;
+    background-color: #202024;
+}
+footer.dsk-footer .footer-layout {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-flow: column wrap;
+}
+footer.dsk-footer .footer-layout .store-links {
+    width: 100%;
+    max-width: 90%;
+    height: 100px;
+    /* background-color: gray; */
+    border-bottom: 1px solid silver;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto !important;
+}
+footer.dsk-footer .footer-layout .store-links img.store-lk {
+    width: 80px;
+}
+footer.dsk-footer .footer-layout .store-links .footer-social-links {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+}
+footer.dsk-footer .footer-layout .store-links .footer-social-links a svg {
+    width: 30px;
+    fill: #ffffffa6;
+}
+footer.dsk-footer .footer-layout .lists {
+    width: 100%;
+    max-width: 90%;
+    margin: 20px auto !important;
+    padding-bottom: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 50px;
+    justify-content: space-evenly;
+    border-bottom: 1px solid silver;
+}
+footer.dsk-footer .footer-layout .lists ul {
+    text-align: left;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
+}
+footer.dsk-footer .footer-layout .lists ul h2 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px !important;
+}
+footer.dsk-footer .footer-layout .lists ul li a {
+    color: silver;
+    transition: 300ms;
+}
+footer.dsk-footer .footer-layout .lists ul li a:hover {
+    color: white;
+}
+footer.dsk-footer .footer-layout .privacy-policy {
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto !important;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+footer.dsk-footer .footer-layout .privacy-policy .privacy {
+    width: 50%;
+    height: fit-content;
+    color: white;
+    padding: 8px;
+}
+footer.dsk-footer .footer-layout .privacy-policy .toptop button {
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #ffffff26;
+    color: white;
+    outline: none;
+    border: none;
+}
+footer.dsk-footer .footer-layout .privacy-policy .toptop button:hover {
+    background-color: #ffffff59;
+}

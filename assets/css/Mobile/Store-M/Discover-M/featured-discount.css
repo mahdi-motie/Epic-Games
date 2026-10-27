@@ -1,0 +1,87 @@
+section.featured-discount {
+  width: 100%;
+  height: fit-content;
+  padding: 40px;
+  background-color: #101014;
+  margin: 0 auto !important;
+}
+section.featured-discount a.featured-link {
+  font-size: 25px;
+  font-weight: 800;
+  color: white;
+}
+
+.featured-sliders .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.featured-sliders .swiper-slide {
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+.featured-sliders .swiper-slide a.fth-links {
+    width: 90%;
+    
+}
+.featured-sliders .swiper-slide  .fth-banner img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.featured-sliders .swiper-slide .fth-title-off-price {
+    overflow: hidden;
+    width: 100%;
+    height: 140px;
+    /* background-color: silver; */
+    position: relative;
+}
+.featured-sliders .swiper-slide .fth-title-off-price .fth-title {
+    width: 100%;
+    padding-top: 15px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    overflow: hidden;
+    word-break: break-word;
+}
+.featured-sliders .swiper-slide .fth-title-off-price .fth-price {
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    bottom: 30px;
+    left: 56px;
+}
+.featured-sliders .swiper-slide .fth-title-off-price .fth-price::before {
+    width: 50px;
+    height: 22px;
+    font-size: 14px;
+    background-color: #26BBFF;
+    color: black;
+    border-radius: 20px;
+    padding: 0px;
+    position: absolute;
+    bottom: 100%;
+    left: -100%;
+    content: "-80%";
+}
+.featured-sliders .swiper-slide .fth-title-off-price .fth-price::after {
+    width: 50px;
+    height: 22px;
+    color: gray;
+    text-decoration: line-through !important;
+    padding-left: 10px;
+    position: absolute;
+    top: 0%;
+    right: -100%;
+    content: "€89.99";
+}

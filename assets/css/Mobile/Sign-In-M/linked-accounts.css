@@ -1,0 +1,184 @@
+.sign-in .sign-in-layout .down-side {
+    width: 100%;
+    max-width: 464px;
+    /* background-color: gray; */
+    margin: 20px auto !important;
+}
+.sign-in .sign-in-layout .down-side .only-played-layout {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px !important;
+}
+.sign-in .sign-in-layout .down-side .only-played-layout .top-side-only {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.sign-in .sign-in-layout .down-side .only-played-layout .top-side-only p.title {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+}
+.sign-in .sign-in-layout .down-side .only-played-layout .top-side-only p.des {
+    font-size: 13px;
+    font-weight: 100;
+    text-align: center;
+    color: gray;
+}
+.sign-in .sign-in-layout .down-side .only-played-layout .top-side-only .link-accounts {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: fit-content;
+}
+
+.sign-in .sign-in-layout .down-side .only-played-layout .top-side-only .link-accounts div {
+    width: 32%;
+    height: 100px;
+    cursor: pointer;
+    margin: 0 auto !important;
+    border: 1px solid #ffffff1a;
+    border-radius: 15px;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 17px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+.sign-in .sign-in-layout .down-side .only-played-layout .top-side-only .link-accounts div svg {
+    background-color: #003791;
+    min-width: 40px;
+    min-height: 40px;
+    padding: 7px;
+    border-radius: 50%;
+    
+}
+.sign-in .sign-in-layout .down-side .only-played-layout .top-side-only .link-accounts div a {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.sign-in .sign-in-layout .down-side .only-played-layout .top-side-only .link-accounts div p {
+    width: 100%;
+    font-size: 11px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+}
+.sign-in .sign-in-layout .down-side .only-played-layout .top-side-only .link-accounts div:hover {
+    background-color: #ffffff29;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sign-in .sign-in-layout .down-side .other-ways {
+    width: 100%;
+    height: 100%;
+}
+.sign-in .sign-in-layout .down-side .other-ways .top-side-other {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.sign-in .sign-in-layout .down-side .other-ways .top-side-other p.title {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+}
+.sign-in .sign-in-layout .down-side .other-ways .top-side-other p.des {
+    font-size: 13px;
+    font-weight: 100;
+    text-align: center;
+    color: gray;
+}
+.sign-in .sign-in-layout .down-side .other-ways .top-side-other .link-accounts {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: fit-content;
+}
+
+.sign-in .sign-in-layout .down-side .other-ways .top-side-other .link-accounts div {
+    width: 32%;
+    height: 100px;
+    cursor: pointer;
+    margin: 0 auto !important;
+    border: 1px solid #ffffff1a;
+    border-radius: 15px;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 17px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+.sign-in .sign-in-layout .down-side .other-ways .top-side-other .link-accounts div svg {
+    background-color: #003791;
+    min-width: 40px;
+    min-height: 40px;
+    padding: 7px;
+    border-radius: 50%;
+    
+}
+.sign-in .sign-in-layout .down-side .other-ways .top-side-other .link-accounts div a {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.sign-in .sign-in-layout .down-side .other-ways .top-side-other .link-accounts div p {
+    width: 100%;
+    font-size: 11px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+}
+.sign-in .sign-in-layout .down-side .other-ways .top-side-other .link-accounts div:hover {
+    background-color: #ffffff29;
+}

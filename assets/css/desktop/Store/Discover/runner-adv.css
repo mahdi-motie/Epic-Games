@@ -1,0 +1,69 @@
+.Home-Desktop {
+  height: fit-content !important;
+  background-color: #101014 !important;
+}
+.fortnite-banner-ad {
+  width: 77%;
+  height: 400px;
+  margin: 100px auto !important;
+}
+.fortnite-banner-ad .runners-event {
+  width: 100%;
+  height: 100%;
+}
+.fortnite-banner-ad .runners-event .runner-back {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+.fortnite-banner-ad .runners-event .runner-back .runner-front {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.fortnite-banner-ad .runners-event .runner-back .runner-front img {
+  width: 170px;
+  height: 100px;
+  max-width: 270px;
+  max-height: 100px;
+  margin-bottom: 32px;
+  position: absolute;
+  top: 100px;
+  left: 60px;
+}
+.fortnite-banner-ad .runners-event .runner-back .runner-front p.title {
+  position: absolute;
+  bottom: 140px;
+  left: 60px;
+  color: white;
+}
+
+.fortnite-banner-ad .runners-event .runner-back .runner-front p.describtion {
+  position: absolute;
+  bottom: 100px;
+  left: 60px;
+  color: silver;
+}
+.fortnite-banner-ad .runners-event .runner-back .runner-front button {
+  position: absolute;
+  bottom: 30px;
+  left: 60px;
+  color: silver;
+  background: #fff;
+  color: black;
+  border-radius: 8px;
+  padding: 10px;
+}
+.fortnite-banner-ad .runners-event .runner-back .runner-front button:hover {
+    background: silver;
+}
+
+.fortnite-banner-ad .runner-back img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  
+}

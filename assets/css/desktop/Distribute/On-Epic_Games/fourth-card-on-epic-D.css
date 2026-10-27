@@ -1,0 +1,56 @@
+.fourth-card-on-epic-D .fourth-card-flex-on-epic-D {
+  width: 80%;
+  height: 500px;
+  margin: 50px auto !important;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: #1c1c20;
+  border-radius: 24px;
+}
+
+.fourth-card-on-epic-D .fourth-card-flex-on-epic-D .f-img-card-on-epic-d {
+  width: 78%;
+  height: 100%;
+  border-radius: 24px 0 0 24px;
+}
+
+.fourth-card-on-epic-D .fourth-card-flex-on-epic-D .f-img-card-on-epic-d img{
+    border-radius: 24px;
+}
+
+.fourth-card-on-epic-D .fourth-card-flex-on-epic-D .f-card-on-epic-body-D {
+  width: 25%;
+  height: 50%;
+  background-color: #1c1c20;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  margin: auto 0 !important;
+  border-radius: 24px;
+}
+
+.fourth-card-on-epic-D
+  .fourth-card-flex-on-epic-D
+  .f-card-on-epic-body-D
+  .f-card-text-on-epic-D {
+  color: #fff;
+  background-color: #1c1c20;
+  font-size: 20px;
+  padding: 30px;
+  line-height: 200%;
+  border-radius: 24px;
+}
+
+.fourth-card-on-epic-D
+  .fourth-card-flex-on-epic-D
+  .f-card-on-epic-body-D
+  a {
+  color: #26bbff;
+  text-decoration: none;
+  background-color: #1c1c20;
+  padding: 30px;
+  font-size: 24px;
+  border-radius: 24px;
+}
